@@ -1,0 +1,15 @@
+package car;
+
+public class Test {
+	public static void printCars(Car[] cars) {
+		for (Car car : cars) {
+			System.out.println("品牌:" + car.getBrand());
+			System.out.println("类型:" + car.getType() );
+			System.out.println("车牌:" + car.getCarId());
+			System.out.println("===================");
+		}
+	}
+	public static void main(String[] args) {
+		
+	}
+}

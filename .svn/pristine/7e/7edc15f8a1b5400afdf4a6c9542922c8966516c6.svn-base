@@ -1,0 +1,15 @@
+package car;
+
+public class CarDaoImpl {
+	private Car[] cars;
+	private int index;
+
+	public CarDaoImpl() {
+		cars = new Car[10];
+	}
+
+	public CarDaoImpl(int size) {
+		cars = new Car[size];
+	}
+	
+}
